@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: Tasty
+Version: 0.1.4
+Summary: Toolbox for Automatic Secure Two-partY computation
+Home-page: http://tastyproject.net
+Author: Stefan Koegl, Thomas Schneider, Immo Wehrenberg
+Author-email: stefan dot koegl at rub dot de, thomas dot schneider at trust dot rub dot de, immo dot wehrenberg at rub dot de
+License: GPL3
+Description: 
+            
+Keywords: compiler,encryption,garbled circuits,homomorphic,Paillier,benchmark,graph
+Platform: UNKNOWN

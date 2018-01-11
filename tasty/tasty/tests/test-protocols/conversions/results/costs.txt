@@ -1,0 +1,65 @@
+**************
+Abstract Costs
+**************
+32 OTs
+Garbled Circuit:
+*****************
+Theoretical Costs
+*****************
+Setup Phase
+-----------
+C->S: 776 B
+C<-S: 2.0556640625 KiB
+C:
+   32 SHA256-Hashes
+S:
+   64 SHA256-Hashes
+Online Phase
+------------
+C->S: 4 B
+C<-S: 1.5078125 KiB
+C: 
+S:
+**********
+Real Costs
+**********
+C->S: 2.607421875 KiB tasty init overhead
+Analyzation Phase
+-----------------
+C: 110.0 ms
+S: 110.0 ms
+Setup Phase
+-----------
+C->S: 3.380859375 KiB
+C<-S: 3.4580078125 KiB
+C: 240.0 ms
+S: 240.0 ms
+Protocol run times:
+ C: ObliviousTransfer-duration 150.0 ms
+ C: socket-duration 90.0 ms
+ C: Transport-duration 0.0 ms
+ S: ObliviousTransfer-duration 90.0 ms
+ S: socket-duration 80.0 ms
+ S: Transport-duration 70.0 ms
+Online Phase
+------------
+C->S: 119 B
+C<-S: 1.5634765625 KiB
+S: 10.0 ms
+C: 10.0 ms
+Protocol run times:
+ C: socket-duration 0.0 ms
+ C: BeaverOT-duration 0.0 ms
+ C: Transport-duration 0.0 ms
+ S: socket-duration 0.0 ms
+ S: BeaverOT-duration 1840.0 ms
+ S: Transport-duration 10.0 ms
+--------------------------------
+Total (Analyzation+Setup+Online)
+--------------------------------
+C->S: 3.4970703125 KiB
+C<-S: 5.021484375 KiB
+C:
+    250 ms
+S:
+    2090 ms

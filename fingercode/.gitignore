@@ -1,0 +1,5 @@
+# pyc remove
+*.pyc
+
+# pycharm ide folder remove
+/.idea

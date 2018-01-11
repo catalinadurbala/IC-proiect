@@ -1,0 +1,6 @@
+
+    [console_scripts]
+    tasty_init = tasty.scripts.tasty_init:main
+    tasty_post = tasty.scripts.tasty_post:start
+    tasty = tasty.scripts.main:start
+    

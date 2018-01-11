@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+Tasty.egg-info/PKG-INFO
+Tasty.egg-info/SOURCES.txt
+Tasty.egg-info/dependency_links.txt
+Tasty.egg-info/entry_points.txt
+Tasty.egg-info/not-zip-safe
+Tasty.egg-info/requires.txt
+Tasty.egg-info/top_level.txt
